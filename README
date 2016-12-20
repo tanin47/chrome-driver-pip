@@ -4,6 +4,15 @@ Chromedriver for pip
 You can install it with `pip install chrome-driver`. It only works with
 Linux (64-bit).
 
+
+How to publish
+---------------
+
+1. `rm -rf dist`
+2. `python setup.py sdist`
+3. `twine upload dist/*`
+
+
 Authors
 --------
 Tanin Na Nakorn
