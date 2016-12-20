@@ -13,6 +13,7 @@ URL = ('https://chromedriver.storage.googleapis.com/2.26'
        '/chromedriver_linux64.zip')
 ETAG = '3cdae483af1e54c6732abc9af875b9c1'
 
+
 class DownloadInstall(install):
   def run(self):
     print 'Download %s' % URL
@@ -37,7 +38,7 @@ class DownloadInstall(install):
 
 setup(
     name='chrome-driver',
-    version='0.3.2',
+    version='2.26',
     description='Chromedriver for pip.',
     url='https://github.com/tanin47/chrome-driver-pip',
     author='Tanin Na Nakorn',
