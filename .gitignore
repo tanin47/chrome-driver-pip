@@ -1,0 +1,5 @@
+/ENV
+/bin
+/build
+*.egg_info
+
