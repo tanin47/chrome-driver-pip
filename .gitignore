@@ -1,5 +1,5 @@
 /ENV
 /bin
 /build
-*.egg_info
+*.egg-info
 
